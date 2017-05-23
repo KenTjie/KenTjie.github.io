@@ -29,26 +29,31 @@
             	width: 70%;
                 border-radius: 20px;
                 margin: auto;
+                display: block;
            	}
             
             ul {
             	list-style: none;
                 text-align: center;
-                margin: auto;
             }
             
             li {
             	font-size: 1.5em;
             }
             
-            #button {
-                width: 100%;
-
+            #resume {   
+            	display: block;
+                margin: 1em auto;
             }
             
-            img {   
-            	display: block;
-                margin: 2em auto;
+            #links {
+            	display: inline-block;
+                margin: 0.5em auto; 
+                padding: 0 2em;
+            }
+            
+            #buttons {
+                text-align: center;
             }
         </style>
     </head>
@@ -64,9 +69,19 @@
                 <li><p>University of Waterloo</p></li>
                 <li><p>Candidate for Bachelor's of Computer Science</p></li>
             </ul>
+            
+        	<div id="buttons">
+        		<a href="linkedin.com/in/kennethtjie">
+              		<img id="links" src="https://rawgit.com/KenTjie/KenTjie.github.io/master/sprites/lilogo.png"/>
+                </a>
+				
+                <a href="https://github.com/KenTjie">
+                	<img id="links" src="https://rawgit.com/KenTjie/KenTjie.github.io/master/sprites/github.png"/>
+                </a>
+        	</div>
         </div>
         
-        <div id="button"><img src="https://rawgit.com/KenTjie/KenTjie.github.io/master/sprites/button.gif"/></div>
-		
+        <div>
+        	<img id="resume" src="https://rawgit.com/KenTjie/KenTjie.github.io/master/sprites/button.gif"/>			</div>		
 	</body>
 </html>
