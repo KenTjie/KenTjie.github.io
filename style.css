@@ -6,21 +6,6 @@
 body {
   background-color: #6888FC;
 }
-
-@font-face {
-    font-family: 'silkscreen_expandednormal';
-    src: url('https://rawgit.com/KenTjie/KenTjie.github.io/master/slkscr-webfont.eot');
-    src: url('https://rawgit.com/KenTjie/KenTjie.github.io/master/slkscr-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://rawgit.com/KenTjie/KenTjie.github.io/master/slkscr-webfont.woff') format('woff'),
-         url('https://rawgit.com/KenTjie/KenTjie.github.io/master/slkscr-webfont.ttf') format('truetype'),
-         url('https://rawgit.com/KenTjie/KenTjie.github.io/master/slkscr-webfont.svg#silkscreen_expandednormal') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-p { 
-  font-family: 'silkscreen_expandednormal', Arial, sans-serif; 
-}
           
 #name,#desc {	
   background-color: #c90000;
@@ -71,4 +56,19 @@ li {
 #me {
   display: block;
   margin: auto;
+}
+
+@font-face {
+    font-family: 'silkscreen_expandednormal';
+    src: url('https://rawgit.com/KenTjie/KenTjie.github.io/master/slkscr-webfont.eot');
+    src: url('https://rawgit.com/KenTjie/KenTjie.github.io/master/slkscr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://rawgit.com/KenTjie/KenTjie.github.io/master/slkscr-webfont.woff') format('woff'),
+         url('https://rawgit.com/KenTjie/KenTjie.github.io/master/slkscr-webfont.ttf') format('truetype'),
+         url('https://rawgit.com/KenTjie/KenTjie.github.io/master/slkscr-webfont.svg#silkscreen_expandednormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p { 
+  font-family: 'silkscreen_expandednormal', Arial, sans-serif; 
 }
