@@ -5,65 +5,56 @@
         <meta charset="utf-8">
   		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	
-    	<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
         <link rel="stylesheet" type="text/css" href="https://rawgit.com/KenTjie/KenTjie.github.io/master/style.css"/>
-
-		<!-- jQuery library -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-		<!-- Latest compiled JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+        
         <style>
         	* {
             	box-sizing: border-box;
+                color: white;
+            }      
+            
+            div {	
+                background-color: #c90000;
             }
             
-            #filler {
-            	background-color: red;
-                height: 0.5em;
-            }
-            
-        	#menu {
-            	background-color: red;
-                font-size: 4em;
-                border-radius: 10px;
-                z-index: 1000;
-            }
-            
-            #second {
-            	background-color: red;
-                width: 700px;
-          		margin: auto;
-                border-radius: 20px;    
+           	#name {
+            	font-size: 5em;
+                text-align: center;
             }
             
             #desc {
-            	margin: 5.5em auto;
-  				text-align: center;
-			}
+            	width: 70%;
+            	border: 2px solic black;
+                border-radius: 20px;
+                margin: auto;
+           	}
+            
+            ul {
+            	list-style: none;
+                text-align: center;
+                margin: auto;
+            }
             
             li {
             	font-size: 1.5em;
-                display: inline;
-                padding: 20px 0.5em;
-            }            
+            }
         </style>
     </head>
     
-	<body>		
-        <div id="filler">
-			<div id="menu">
-        		Kenneth Tjie
-        	</div>
+	<body>
+    	<div>
+        	<p id="name">Kenneth Tjie</p>
         </div>
         
-        <div id="second">
-        	<ul id="desc">
-            	<li>Aspiring programmer</li>
-                <li>University of Waterloo | BCS</li>
+        <div id="desc">
+        	<ul>
+            	<li><p>Aspiring Programmer</p></li>
+                <li><p>University of Waterloo</p></li>
+                <li><p>Candidate for Bachelor's of Computer Science</p></li>
             </ul>
-		<p>test2</p>
         </div>
 		
 	</body>
