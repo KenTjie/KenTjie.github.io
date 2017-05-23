@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  color: white;
+} 
+
 body {
   background-color: #6888FC;
 }
@@ -16,12 +21,7 @@ body {
 p { 
   font-family: 'silkscreen_expandednormal', Arial, sans-serif; 
 }
-
-* {
-  box-sizing: border-box;
-  color: white;
-}   
-            
+          
 #name,#desc {	
   background-color: #c90000;
 }
