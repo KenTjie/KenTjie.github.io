@@ -1,62 +1,6 @@
-* {
-  box-sizing: border-box;
-  color: white;
-} 
-
 body {
   background-color: #6888FC;
-}
-          
-#name,#desc {	
-  background-color: #c90000;
-}
-            
-#name {
-  font-size: 5em;
-  text-align: center;
-}
-            
-#desc {
-  width: 90%;
-  border-radius: 20px;
-  margin: auto;
-  display: block;
-}
-            
-ul {
-  list-style: none;
-  text-align: center;
-}
-            
-li {
-  font-size: 1.25em;
-  text-align: center;
-}
-            
-#resume {   
-  display: block;
-  margin: 1em auto;
-}
-
-#links {
-  display: inline-block;
-  margin: 0.5em auto; 
-  padding: 0 2em;
-}
-            
-#buttons {
-  text-align: center;
-}
-            
-#ground {
-  background-image: url("https://rawgit.com/KenTjie/KenTjie.github.io/master/sprites/ground.png");
-  height: 40px;
-}
-             
-#me {
-  display: block;
-  margin: auto;
-}
+}        
 
 @font-face {
     font-family: 'silkscreen_expandednormal';
